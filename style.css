@@ -1,3 +1,28 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), local("OpenSans"), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3SZ2oysoEQEeKwjgmXLRnTc.ttf) format("truetype"); }
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Open Sans Semibold"), local("OpenSans-Semibold"), url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSpS3E-kSBmtLoNJPDtbj2Pk.ttf) format("truetype"); }
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans Bold"), local("OpenSans-Bold"), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzJS3E-kSBmtLoNJPDtbj2Pk.ttf) format("truetype"); }
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Open Sans Semibold Italic"), local("OpenSans-SemiboldItalic"), url(https://fonts.gstatic.com/s/opensans/v13/PRmiXeptR36kaC0GEAetxs1QGe9x6ME_FQCWJB3n6z8.ttf) format("truetype"); }
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Droid Serif"), local("DroidSerif"), url(https://fonts.gstatic.com/s/droidserif/v6/0AKsP294HTD-nvJgucYTaCwlidHJgAgmTjOEEzwu1L8.ttf) format("truetype"); }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -355,3 +380,49 @@ table {
 td,
 th {
   padding: 0; }
+
+body {
+  font-family: "Droid Serif",Georgia,Times,"Times New Roman",serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #555; }
+
+h1 {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  letter-spacing: 0px;
+  text-transform: uppercase; }
+
+.quarter {
+  text-align: center;
+  font-size: .7rem;
+  line-height: 1.1rem; }
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+video {
+  width: 100%; }
+
+.container {
+  max-width: 640px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap; }
+
+.full {
+  width: 100%; }
+
+.group {
+  display: flex;
+  overflow: hidden; }
+
+.half {
+  width: 20rem; }
+
+.quarter {
+  width: 10rem;
+  padding: 0 5px; }
+
+/*# sourceMappingURL=style.css.map */

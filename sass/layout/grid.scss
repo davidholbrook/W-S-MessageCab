@@ -1,0 +1,30 @@
+
+%grid{
+	background: rgba(155, 88, 181, 0.2);
+	border: 1px rgba(0,0,0,.2) solid;
+	height: 200px;
+}
+
+.container{
+	max-width: 640px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.full{
+	//@extend %grid;
+	width: 100%;
+}
+.group{
+	display: flex;
+	overflow: hidden;
+}
+.half{
+	//@extend %grid;
+	width: 20rem;
+}
+.quarter{
+	//@extend %grid;
+	width: 10rem;
+	padding: 0 5px;
+}
