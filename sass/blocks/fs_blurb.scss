@@ -1,0 +1,14 @@
+.fs_blurb{
+  @extend %sections;
+  background: url('img/about.jpg') no-repeat bottom left;
+  background-size: cover;
+}
+.fs_blurb__centered{
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+.fs_blurb__title{
+    font-size: 2.2rem;
+}
