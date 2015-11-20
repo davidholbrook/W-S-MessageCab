@@ -28,3 +28,13 @@
 	width: 10rem;
 	padding: 0 5px;
 }
+.vcentered::before{
+	content:'';
+	display: block;
+	align-self: flex-start;
+}
+.vcentered::after{
+	content:'';
+	display: block;
+	align-self: flex-end;
+}

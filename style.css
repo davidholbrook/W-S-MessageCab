@@ -405,6 +405,13 @@ h1 {
 video {
   width: 100%; }
 
+.about, .services {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
 .container {
   max-width: 640px;
   margin: 0 auto;
@@ -424,5 +431,41 @@ video {
 .quarter {
   width: 10rem;
   padding: 0 5px; }
+
+.vcentered::before {
+  content: '';
+  display: block;
+  align-self: flex-start; }
+
+.vcentered::after {
+  content: '';
+  display: block;
+  align-self: flex-end; }
+
+.title {
+  display: block;
+  background: #e8ae4a;
+  width: 2460px;
+  margin-left: -2000px;
+  text-align: right;
+  padding: 20px 25px; }
+
+.about {
+  background: url("img/about.jpg") no-repeat bottom left;
+  background-size: cover; }
+  .about .vcentered {
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 2.5rem; }
+    .about .vcentered .title {
+      font-size: 2.2rem; }
+
+.services .title {
+  background: rgba(104, 78, 33, 0.5);
+  color: #fff;
+  width: 2300px;
+  margin: -50px 0 100px -2000px; }
+.services img {
+  margin-bottom: 20px; }
 
 /*# sourceMappingURL=style.css.map */
