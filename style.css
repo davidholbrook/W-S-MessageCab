@@ -393,10 +393,20 @@ h1 {
   letter-spacing: 0px;
   text-transform: uppercase; }
 
-.quarter {
+h2 {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
+
+.quarter, .half {
   text-align: center;
   font-size: .7rem;
   line-height: 1.1rem; }
+
+.half {
+  font-size: .9rem;
+  line-height: 1.5rem; }
 
 * {
   box-sizing: border-box;
@@ -424,10 +434,12 @@ video {
 
 .group {
   display: flex;
-  overflow: hidden; }
+  overflow: hidden;
+  margin-bottom: 3rem; }
 
 .half {
-  width: 20rem; }
+  width: 20rem;
+  padding: 0 5px; }
 
 .quarter {
   width: 10rem;
@@ -470,13 +482,58 @@ video {
     color: #684e21;
     font-weight: bolder; }
 
+.features {
+  background-color: #f2f2f2;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YyZjJmMiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2Q2ZDZkNiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f2f2f2), color-stop(100%, #d6d6d6));
+  background-image: -moz-linear-gradient(top, #f2f2f2, #d6d6d6);
+  background-image: -webkit-linear-gradient(top, #f2f2f2, #d6d6d6);
+  background-image: linear-gradient(to bottom, #f2f2f2, #d6d6d6); }
+
 .features__title {
   background: rgba(104, 78, 33, 0.5);
   color: #fff;
   width: 2300px;
-  margin: -50px 0 100px -2000px; }
+  margin: 50px 0 20px -2000px; }
 
 .features img {
-  margin-bottom: 20px; }
+  margin-bottom: 0px; }
+
+.features__hovergroup h2 {
+  color: #684e21; }
+.features__hovergroup .half {
+  padding: 20px 15px 0;
+  margin: 5px;
+  cursor: pointer; }
+  .features__hovergroup .half:hover {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.2);
+    -moz-animation: fade-in 2s;
+    -webkit-animation: fade-in 2s;
+    animation: fade-in 2s; }
+
+@-moz-keyframes fade-in {
+  0% {
+    background: none;
+    box-shadow: none; }
+  100% {
+    background: white;
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.2); } }
+@-webkit-keyframes fade-in {
+  0% {
+    background: none;
+    box-shadow: none; }
+  100% {
+    background: white;
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.2); } }
+@keyframes fade-in {
+  0% {
+    background: none;
+    box-shadow: none; }
+  100% {
+    background: white;
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.2); } }
 
 /*# sourceMappingURL=style.css.map */

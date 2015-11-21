@@ -18,10 +18,12 @@
 .group{
 	display: flex;
 	overflow: hidden;
+	margin-bottom: 3rem;
 }
 .half{
 	//@extend %grid;
 	width: 20rem;
+	padding: 0 5px;
 }
 .quarter{
 	//@extend %grid;

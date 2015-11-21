@@ -1,13 +1,48 @@
 .features {
   @extend %sections;
+  // background: #f2cd93;
+  background-color: #f2f2f2;
+  @include background-image(linear-gradient(top, #f2f2f2, #d6d6d6));
+
+
+
 }
 .features__title{
   background: rgba($accent,.5);
   color: #fff;
   width: 2300px;
-  margin: -50px 0 100px -2000px;;
+  margin: 50px 0 20px -2000px;;
 }
 
 .features img{
-  margin-bottom: 20px;
+  margin-bottom: 0px;
+}
+
+.features__hovergroup {
+
+  h2{
+    color: $accent;
+  }
+  .half{
+  padding: 20px 15px 0;
+  margin: 5px;
+  cursor: pointer;
+  &:hover{
+    background: tint(#ffffff,80);
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0px rgba(#000000,.2);
+    @include animation(fade-in 2s);
+  }
+}
+}
+
+@include keyframes(fade-in) {
+  0% {
+    background: none;
+    box-shadow: none;
+  }
+  100% {
+    background: tint(#ffffff,80);
+    box-shadow: 0 0 5px 0px rgba(#000000,.2);
+  }
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="133px" height="133px" viewBox="0 0 133 133" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.4 (15575) - http://www.bohemiancoding.com/sketch -->
+<svg width="104px" height="104px" viewBox="0 0 104 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15855) - http://www.bohemiancoding.com/sketch -->
     <title>messaging_section</title>
     <desc>Created with Sketch.</desc>
     <defs>
@@ -8,19 +8,16 @@
     </defs>
     <g id="desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="Desktop-Portrait" sketch:type="MSArtboardGroup" transform="translate(-579.000000, -1207.000000)">
-            <g id="phone_nav" sketch:type="MSLayerGroup" transform="translate(114.000000, 1209.000000)">
-                <g id="messaging_section" transform="translate(467.000000, 0.000000)">
-                    <text id="Messaging" sketch:type="MSTextLayer" font-family="SF Compact Display" font-size="16.9557147" font-style="condensed" font-weight="633" fill="#684E21">
-                        <tspan x="20" y="101.673469">MESSAGING</tspan>
-                    </text>
-                    <g id="Page-1" transform="translate(37.033898, 24.000000)">
+            <g id="phone_nav" sketch:type="MSLayerGroup" transform="translate(123.000000, 1209.000000)">
+                <g id="messaging_section" transform="translate(458.000000, 0.000000)">
+                    <g id="Page-1" transform="translate(19.033898, 23.000000)">
                         <mask id="mask-2" sketch:name="Clip 2" fill="white">
                             <use xlink:href="#path-1"></use>
                         </mask>
                         <g id="Clip-2"></g>
                         <path d="M45.7006716,24.7514445 C44.5213403,27.1997751 42.0956067,28.4779751 40.2791012,27.6041037 C38.4663218,26.7302322 37.9483848,24.0378139 39.1295792,21.5894833 C40.3051843,19.1392894 42.732781,17.8629527 44.5474235,18.7349608 C46.363929,19.6088322 46.8781398,22.3031139 45.7006716,24.7514445 M34.7923228,25.3085608 C33.1993872,28.6195833 29.9184987,30.3486935 27.4629558,29.16552 C25.011139,27.9860731 24.3124831,24.3433894 25.9054187,21.0323669 C27.5002174,17.7213445 30.7811059,15.9922343 33.2347858,17.1754078 C35.6884656,18.3529914 36.3852585,21.9956751 34.7923228,25.3085608 M21.515996,24.7514445 C20.3385278,27.1997751 17.9109311,28.4779751 16.0962887,27.6041037 C14.2816462,26.7302322 13.7655723,24.0378139 14.9449036,21.5894833 C16.1223718,19.1392894 18.5499685,17.8629527 20.364611,18.7349608 C22.1792534,19.6088322 22.6953273,22.3031139 21.515996,24.7514445 M48.3946891,3.31644041 C44.3145381,1.48671388 25.9408173,-5.90485959 7.93784984,11.1197955 C7.93784984,11.1197955 -10.9668496,30.0468445 9.57177331,42.284771 C12.0366316,43.7511608 16.0217654,44.7237853 17.1824658,45.4616384 C18.1065548,46.05602 17.4190773,54.4761159 18.4810344,54.8506322 C20.6608411,55.6220241 29.6371732,46.5907771 30.646964,45.9889424 C32.1467455,45.0983016 55.2862317,40.8034751 59.0850572,24.839018 C61.9597937,12.7576057 52.472977,5.14430367 48.3946891,3.31644041" id="Fill-1" fill="#684E21" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
                     </g>
-                    <circle id="Oval-1-Copy-3" stroke="#684E21" stroke-width="4" sketch:type="MSShapeGroup" cx="64.5" cy="64.5" r="64.5"></circle>
+                    <circle id="Oval-1-Copy-3" stroke="#684E21" stroke-width="4" sketch:type="MSShapeGroup" cx="50" cy="50" r="50"></circle>
                 </g>
             </g>
         </g>
