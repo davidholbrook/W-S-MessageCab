@@ -11,4 +11,10 @@
 
 .fs_blurb__title{
     font-size: 2.2rem;
+    width: 2380px;
+
+    span{
+      color: $accent;
+      font-weight: bolder;
+    }
 }

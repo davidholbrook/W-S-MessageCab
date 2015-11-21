@@ -74,7 +74,7 @@
 		"outputAbbreviatedPath": "\/img\/about.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/index.html": {
 		"fileType": 8192,
@@ -318,7 +318,7 @@
 	"bowerAbbreviatedPath": "",
 	"displayValue": "messageCab",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_orange"
+	"iconImageName": "globe_yellow"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,
