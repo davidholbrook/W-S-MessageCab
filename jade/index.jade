@@ -5,7 +5,9 @@ html
 	link(rel="stylesheet", href="style.css", type="text/css")
 	body
 	.branding
-		<video src="video/logo.mp4" autoplay loop></video>
+		video(autoplay loop)
+			source(src="video/logo.mp4" type="video/mp4")
+			img(src="img/message_logo.png")
 	.fs_blurb
 		.container
 			.full
