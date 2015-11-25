@@ -416,12 +416,12 @@ video {
   width: 100%; }
 
 .fs_blurb, .features {
-  height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0px; }
+  margin: 0px;
+  padding: 50px 0; }
 
 .container {
   max-width: 640px;
@@ -495,7 +495,7 @@ video {
   background: rgba(104, 78, 33, 0.5);
   color: #fff;
   width: 2300px;
-  margin: 50px 0 20px -2000px; }
+  margin: 00px 0 20px -2000px; }
 
 .features img {
   margin-bottom: 0px; }
