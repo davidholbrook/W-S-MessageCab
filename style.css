@@ -458,7 +458,7 @@ video {
 .title {
   display: block;
   background: #e8ae4a;
-  margin-left: -2000px;
+  margin-left: -2040px;
   text-align: right;
   padding: 20px 25px; }
 
@@ -476,7 +476,7 @@ video {
   line-height: 2.5rem; }
 
 .fs_blurb__title {
-  font-size: 2.2rem;
+  font-size: 2rem;
   width: 2380px; }
   .fs_blurb__title span {
     color: #684e21;
@@ -495,7 +495,7 @@ video {
   background: rgba(104, 78, 33, 0.5);
   color: #fff;
   width: 2300px;
-  margin: 00px 0 20px -2000px; }
+  margin-left: -2040px; }
 
 .features img {
   margin-bottom: 0px; }

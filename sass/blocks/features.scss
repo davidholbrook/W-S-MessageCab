@@ -3,15 +3,11 @@
   // background: #f2cd93;
   background-color: #f2f2f2;
   @include background-image(linear-gradient(top, #f2f2f2, #d6d6d6));
-
-
-
 }
 .features__title{
   background: rgba($accent,.5);
   color: #fff;
   width: 2300px;
-  margin: 00px 0 20px -2000px;;
 }
 
 .features img{
