@@ -415,7 +415,7 @@ h2 {
 video {
   width: 100%; }
 
-.fs_blurb, .features {
+.fs_blurb, .features, .grid {
   width: 100%;
   display: flex;
   align-items: center;
@@ -494,8 +494,7 @@ video {
 .features__title {
   background: rgba(104, 78, 33, 0.5);
   color: #fff;
-  width: 2300px;
-  margin-left: -2040px; }
+  width: 2300px; }
 
 .features img {
   margin-bottom: 0px; }
@@ -535,5 +534,16 @@ video {
   100% {
     background: white;
     box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.2); } }
+.grid {
+  flex-wrap: wrap;
+  max-width: 700px;
+  margin: 0 auto; }
+
+.grid__img img {
+  width: 10rem;
+  height: 10rem;
+  border: 5px #684e21 solid;
+  border-radius: 50%;
+  margin: 10px; }
 
 /*# sourceMappingURL=style.css.map */
