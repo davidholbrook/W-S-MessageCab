@@ -1,8 +1,11 @@
 .features {
   @extend %sections;
-  // background: #f2cd93;
   background-color: #f2f2f2;
   @include background-image(linear-gradient(top, #f2f2f2, #d6d6d6));
+  
+  .container{
+	  max-width: 960px;
+  }
 }
 .features__title{
   background: rgba($accent,.5);
@@ -19,9 +22,9 @@
   h2{
     color: $accent;
   }
-  .half{
-  padding: 20px 15px 0;
-  margin: 5px;
+  .quarter{
+   padding: 20px 15px 0;
+   margin: 5px;
   cursor: pointer;
   &:hover{
     background: tint(#ffffff,80);

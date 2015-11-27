@@ -447,11 +447,11 @@ video {
   margin-bottom: 3rem; }
 
 .half {
-  width: 20rem;
+  width: 40rem;
   padding: 0 5px; }
 
 .quarter {
-  width: 10rem;
+  width: 20rem;
   padding: 0 5px; }
 
 .vcentered::before {
@@ -470,7 +470,9 @@ video {
   margin-left: -2040px;
   text-align: right;
   padding: 20px 25px;
-  width: 2300px; }
+  width: 2300px;
+  font-size: 2rem;
+  line-height: 2.5rem; }
 
 .branding {
   background: #db993c;
@@ -486,7 +488,6 @@ video {
   line-height: 2.5rem; }
 
 .fs_blurb__title {
-  font-size: 2rem;
   width: 2380px; }
   .fs_blurb__title span {
     color: #684e21;
@@ -500,6 +501,8 @@ video {
   background-image: -moz-linear-gradient(top, #f2f2f2, #d6d6d6);
   background-image: -webkit-linear-gradient(top, #f2f2f2, #d6d6d6);
   background-image: linear-gradient(to bottom, #f2f2f2, #d6d6d6); }
+  .features .container {
+    max-width: 960px; }
 
 .features__title {
   background: rgba(104, 78, 33, 0.5);
@@ -511,11 +514,11 @@ video {
 
 .features__hovergroup h2 {
   color: #684e21; }
-.features__hovergroup .half {
+.features__hovergroup .quarter {
   padding: 20px 15px 0;
   margin: 5px;
   cursor: pointer; }
-  .features__hovergroup .half:hover {
+  .features__hovergroup .quarter:hover {
     background: white;
     border-radius: 10px;
     box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.2);
@@ -550,9 +553,7 @@ video {
 
 .work__title {
   width: 2300px;
-  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
-  font-size: 1.5rem;
-  line-height: 2.5rem; }
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2); }
 
 .grid {
   background: #684e21;
