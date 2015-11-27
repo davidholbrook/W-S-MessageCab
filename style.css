@@ -545,7 +545,8 @@ video {
     background: white;
     box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.2); } }
 .work {
-  position: absolute; }
+  position: absolute;
+  z-index: 99; }
 
 .work__title {
   width: 2300px;
@@ -554,20 +555,25 @@ video {
   line-height: 2.5rem; }
 
 .grid {
+  background: #684e21;
   padding: 0;
   flex-wrap: wrap;
   align-item: center;
   flex-flow: row wrap;
-  justify-content: left; }
+  justify-content: left;
+  z-index: -99; }
 
 .grid__img {
   width: 33.33%;
   overflow: hidden;
   margin-top: -8px; }
+  .grid__img:nth-child(1), .grid__img:nth-child(2), .grid__img:nth-child(3) {
+    margin-top: 0; }
   .grid__img img {
     width: 500px;
     height: 300px;
     margin: 0;
-    padding: 0; }
+    padding: 0;
+    opacity: .6; }
 
 /*# sourceMappingURL=style.css.map */
