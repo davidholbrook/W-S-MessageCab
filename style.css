@@ -421,7 +421,7 @@ h3 {
 video {
   width: 100%; }
 
-.fs_blurb, .features, .grid {
+.fs_blurb, .features, .grid, .contact {
   width: 100%;
   display: flex;
   align-items: center;
@@ -576,5 +576,21 @@ video {
     margin: 0;
     padding: 0;
     opacity: .6; }
+
+.contact {
+  background: url("img/contact.jpg") bottom center;
+  background-size: cover;
+  padding-top: 20px; }
+  .contact .inner {
+    width: 640px;
+    color: #fff; }
+  .contact .fs_blurb {
+    background: none; }
+
+.phone, .email {
+  font-size: 2rem;
+  font-family: 'Open Sans';
+  color: #e8ae4a;
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
