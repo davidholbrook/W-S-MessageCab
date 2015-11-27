@@ -399,6 +399,12 @@ h2 {
   letter-spacing: 1px;
   text-transform: uppercase; }
 
+h3 {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
+
 .quarter, .half {
   text-align: center;
   font-size: .7rem;
@@ -422,6 +428,9 @@ video {
   justify-content: center;
   margin: 0px;
   padding: 50px 0; }
+
+.clear {
+  clear: both; }
 
 .container {
   max-width: 640px;
@@ -460,7 +469,8 @@ video {
   background: #e8ae4a;
   margin-left: -2040px;
   text-align: right;
-  padding: 20px 25px; }
+  padding: 20px 25px;
+  width: 2300px; }
 
 .branding {
   background: #db993c;
@@ -534,16 +544,30 @@ video {
   100% {
     background: white;
     box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.2); } }
-.grid {
-  flex-wrap: wrap;
-  max-width: 700px;
-  margin: 0 auto; }
+.work {
+  position: absolute; }
 
-.grid__img img {
-  width: 10rem;
-  height: 10rem;
-  border: 5px #684e21 solid;
-  border-radius: 50%;
-  margin: 10px; }
+.work__title {
+  width: 2300px;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+  font-size: 1.5rem;
+  line-height: 2.5rem; }
+
+.grid {
+  padding: 0;
+  flex-wrap: wrap;
+  align-item: center;
+  flex-flow: row wrap;
+  justify-content: left; }
+
+.grid__img {
+  width: 33.33%;
+  overflow: hidden;
+  margin-top: -8px; }
+  .grid__img img {
+    width: 500px;
+    height: 300px;
+    margin: 0;
+    padding: 0; }
 
 /*# sourceMappingURL=style.css.map */
