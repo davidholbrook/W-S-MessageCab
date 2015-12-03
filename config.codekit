@@ -64,6 +64,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/analylist_bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 476904,
+		"inputAbbreviatedPath": "\/img\/analylist_bg.png",
+		"outputAbbreviatedPath": "\/img\/analylist_bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/contact.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -75,6 +86,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/message_bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 578299,
+		"inputAbbreviatedPath": "\/img\/message_bg.png",
+		"outputAbbreviatedPath": "\/img\/message_bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/message_logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -82,6 +104,17 @@
 		"initialSize": 26574,
 		"inputAbbreviatedPath": "\/img\/message_logo.png",
 		"outputAbbreviatedPath": "\/img\/message_logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/planning_bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 524007,
+		"inputAbbreviatedPath": "\/img\/planning_bg.png",
+		"outputAbbreviatedPath": "\/img\/planning_bg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -185,14 +218,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/index.html": {
-		"fileType": 8192,
-		"ignore": 1,
+	"\/img\/stratagy_bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
+		"initialSize": 631924,
+		"inputAbbreviatedPath": "\/img\/stratagy_bg.png",
+		"outputAbbreviatedPath": "\/img\/stratagy_bg.png",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/jade\/grid.jade": {
 		"compileDebug": 1,
@@ -390,6 +425,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/states\/message--states.scss",
 		"outputAbbreviatedPath": "\/message--states.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/states\/overlays.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/states\/overlays.scss",
+		"outputAbbreviatedPath": "\/overlays.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
