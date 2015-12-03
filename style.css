@@ -592,5 +592,8 @@ video {
   font-family: 'Open Sans';
   color: #e8ae4a;
   text-align: center; }
+  .phone a, .email a {
+    color: #e8ae4a;
+    text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
