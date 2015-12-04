@@ -51,6 +51,7 @@ video{
 
 //buttons
 .cta{
+  display: block;
   border-radius: 15px;
   background: none;
   border: 2px solid $accent;
@@ -59,7 +60,9 @@ video{
   font-size: .9rem;
   padding: 5px 15px;
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
+  color: $accent;
+  text-decoration: none;
 }
 
 // sections

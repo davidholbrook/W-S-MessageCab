@@ -27,45 +27,51 @@
         <h3 class="features__title title">What we provide</h3>
         <div class="container features__hovergroup">
           <div class="group">
-            <div class="quarter"><img src="img/analysis_section.svg">
+            <div class="quarter analysis__btn"><img src="img/analysis_section.svg">
               <h2>analysis</h2>
+              <button class="cta">learn more</button>
             </div>
-            <div class="quarter"><img src="img/planning_section.svg">
+            <div class="quarter planning__btn"><img src="img/planning_section.svg">
               <h2>planning</h2>
+              <button class="cta">learn more</button>
             </div>
-            <div class="quarter"><img src="img/strategy_section.svg">
+            <div class="quarter strategy__btn"><img src="img/strategy_section.svg">
               <h2>strategy</h2>
+              <button class="cta">learn more</button>
             </div>
-            <div class="quarter"><img src="img/messaging_section.svg">
+            <div class="quarter messaging__btn"><img src="img/messaging_section.svg">
               <h2>messaging</h2>
+              <button class="cta">learn more</button>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="overlay">
-      <div class="overlay__container overlay__container--analyist">
+    <div class="overlay overlay--analyist">
+      <div class="overlay__container">
         <div class="overlay__header overlay__header--analyist"><img src="img/analysis_section.svg" class="overlay__icon">
           <div class="overlay__title">
             <h3>analysis</h3>
           </div>
         </div>
         <div class="overlay__body">
-          <p>Your last event was a success, congratulations! Now allow us to take that data and help you analyzes and prepare for you next great one!</p>
-          <button class="cta">learn more</button>
+          <p>Your last event was a success, congratulations! Now allow us to take that data and help you analyzes and prepare for you next great one!</p><a href="#contact" class="cta">contact us</a>
         </div>
       </div>
-      <div class="overlay__container overlay__container--planing">
+    </div>
+    <div class="overlay overlay--planning">
+      <div class="overlay__container">
         <div class="overlay__header overlay__header--planning"><img src="img/planning_section.svg" class="overlay__icon">
           <div class="overlay__title">
             <h3>planning</h3>
           </div>
         </div>
         <div class="overlay__body">
-          <p>Got something special coming that you need an expert for? Come to us! We have over eight years of experience in bold event planning!</p>
-          <button class="cta">learn more</button>
+          <p>Got something special coming that you need an expert for? Come to us! We have over eight years of experience in bold event planning!</p><a href="#contact" class="cta">contact us</a>
         </div>
       </div>
+    </div>
+    <div class="overlay overlay--strategy">
       <div class="overlay__container overlay__container--strategy">
         <div class="overlay__header overlay__header--strategy"><img src="img/strategy_section.svg" class="overlay__icon">
           <div class="overlay__title">
@@ -73,10 +79,11 @@
           </div>
         </div>
         <div class="overlay__body">
-          <p>We will work with you to fully understand your business and your target audience to inform your marketing strategy.</p>
-          <button class="cta">learn more</button>
+          <p>We will work with you to fully understand your business and your target audience to inform your marketing strategy.</p><a href="#contact" class="cta">contact us</a>
         </div>
       </div>
+    </div>
+    <div class="overlay overlay--messaging">
       <div class="overlay__container overlay__container--messaging">
         <div class="overlay__header overlay__header--messaging"><img src="img/messaging_section.svg" class="overlay__icon">
           <div class="overlay__title">
@@ -84,9 +91,7 @@
           </div>
         </div>
         <div class="overlay__body">
-          <p>Need to send a strong message, we got your back! Choose us to help you send your new message down the road to success!
-            <button class="cta">learn more</button>
-          </p>
+          <p>Need to send a strong message, we got your back! Choose us to help you send your new message down the road to success!</p><a href="#contact" class="cta">contact us</a>
         </div>
       </div>
     </div>
@@ -103,7 +108,7 @@
       <div class="grid__img"><img src="img/port/Smead_thumb.jpg"></div>
       <div class="grid__img"><img src="img/port/Stebgo_thumb.jpg"></div>
       <div class="grid__img"><img src="img/port/Tennis_thumb.jpg"></div>
-    </div>
+    </div><a name="contact"></a>
     <div class="contact">
       <div class="fs_blurb">
         <div class="container">
@@ -139,3 +144,5 @@
     </div>
   </body>
 </html>
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/overlay.js" type="text/javascript"></script>

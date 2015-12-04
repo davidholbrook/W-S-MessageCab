@@ -1,0 +1,17 @@
+$(document).ready(function(){
+  $('.analysis__btn').click(function(){
+    $('.overlay--analyist').fadeIn(500);
+  });
+  $('.planning__btn').click(function(){
+    $('.overlay--planning').fadeIn(500);
+  });
+  $('.strategy__btn').click(function(){
+    $('.overlay--strategy').fadeIn(500);
+  });
+  $('.messaging__btn').click(function(){
+    $('.overlay--messaging').fadeIn(500);
+  });
+  $('.overlay').click(function(){
+    $(this).fadeOut(500);
+  });
+});

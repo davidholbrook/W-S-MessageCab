@@ -422,6 +422,7 @@ video {
   width: 100%; }
 
 .cta {
+  display: block;
   border-radius: 15px;
   background: none;
   border: 2px solid #684e21;
@@ -430,7 +431,9 @@ video {
   font-size: .9rem;
   padding: 5px 15px;
   display: block;
-  margin: 0 auto; }
+  margin: 20px auto;
+  color: #684e21;
+  text-decoration: none; }
 
 .fs_blurb, .features, .grid, .contact {
   width: 100%;
@@ -608,14 +611,15 @@ video {
     text-decoration: none; }
 
 .overlay {
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   background: rgba(232, 174, 74, 0.8);
-  z-index: 9;
-  display: none; }
+  z-index: 6;
+  display: none;
+  cursor: pointer; }
 
 .overlay__container {
   width: 31.25rem;
@@ -627,7 +631,8 @@ video {
   left: 50%;
   transform: translate(-50%, -50%);
   border: 3px solid #684e21;
-  display: none; }
+  z-index: 9;
+  pointer-events: auto; }
 
 .overlay__header {
   background-color: #e8ae4a;
