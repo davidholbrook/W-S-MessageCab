@@ -8,7 +8,7 @@ html
 	<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
 	body
 		.branding
-			video(autoplay loop poster="transparent.png")
+			video(autoplay loop poster="img/transparent.png")
 				source(src="video/logo.mp4" type="video/mp4")
 				img(src="img/message_logo.png")
 		.fs_blurb
@@ -39,64 +39,191 @@ html
 									img(src="img/messaging_section.svg")
 									h2 messaging
 									button.cta learn more
-									
-		.overlay.overlay--analyist
-			.overlay__container
-				.overlay__header.overlay__header--analyist
-					img.overlay__icon(src="img/analysis_section.svg")
-					div.overlay__title
-						h3 analysis
-				.overlay__body
-					p Your last event was a success, congratulations! Now allow us to take that data and help you analyzes and prepare for you next great one!
-					a(href="#contact").cta contact us
-		.overlay.overlay--planning
-			.overlay__container
-				.overlay__header.overlay__header--planning
-					img.overlay__icon(src="img/planning_section.svg")
-					div.overlay__title
-						h3 planning
-				.overlay__body
-					p Got something special coming that you need an expert for? Come to us! We have over eight years of experience in bold event planning!
-					a(href="#contact").cta contact us
-		.overlay.overlay--strategy
-			.overlay__container.overlay__container--strategy
-				.overlay__header.overlay__header--strategy
-					img.overlay__icon(src="img/strategy_section.svg")
-					div.overlay__title
-						h3 strategy
-				.overlay__body
-					p We will work with you to fully understand your business and your target audience to inform your marketing strategy.
-					a(href="#contact").cta contact us
-		.overlay.overlay--messaging
-			.overlay__container.overlay__container--messaging
-				.overlay__header.overlay__header--messaging
-					img.overlay__icon(src="img/messaging_section.svg")
-					div.overlay__title
-						h3 message
-				.overlay__body
-					p Need to send a strong message, we got your back! Choose us to help you send your new message down the road to success!
-					a(href="#contact").cta contact us
+		//							
+			.overlay.overlay--analyist
+				.overlay__container
+					.overlay__header.overlay__header--analyist
+						img.overlay__icon(src="img/analysis_section.svg")
+						div.overlay__title
+							h3 analysis
+					.overlay__body
+						p Your last event was a success, congratulations! Now allow us to take that data and help you analyzes and prepare for you next great one!
+						a(href="#contact").cta contact us
+			.overlay.overlay--planning
+				.overlay__container
+					.overlay__header.overlay__header--planning
+						img.overlay__icon(src="img/planning_section.svg")
+						div.overlay__title
+							h3 planning
+					.overlay__body
+						p Got something special coming that you need an expert for? Come to us! We have over eight years of experience in bold event planning!
+						a(href="#contact").cta contact us
+			.overlay.overlay--strategy
+				.overlay__container.overlay__container--strategy
+					.overlay__header.overlay__header--strategy
+						img.overlay__icon(src="img/strategy_section.svg")
+						div.overlay__title
+							h3 strategy
+					.overlay__body
+						p We will work with you to fully understand your business and your target audience to inform your marketing strategy.
+						a(href="#contact").cta contact us
+			.overlay.overlay--messaging
+				.overlay__container.overlay__container--messaging
+					.overlay__header.overlay__header--messaging
+						img.overlay__icon(src="img/messaging_section.svg")
+						div.overlay__title
+							h3 message
+					.overlay__body
+						p Need to send a strong message, we got your back! Choose us to help you send your new message down the road to success!
+						a(href="#contact").cta contact us
 		.work
 			h3.title.work__title Our Work
 		.grid
-			.grid__img
+			.grid__img.grid1
 				img(src="img/port/AllyForce_thumb.jpg")
-			.grid__img
+			.grid__img.grid2
 				img(src="img/port/AppleBarn_thumb.jpg")
-			.grid__img
+			.grid__img.grid3
 				img(src="img/port/CFMOTO_thumb.jpg")
-			.grid__img
+			.grid__img.grid4
 				img(src="img/port/RockRiver_thumb.jpg")
-			.grid__img
+			.grid__img.grid5
 				img(src="img/port/RosemountEngineering_thumb.jpg")
-			.grid__img
+			.grid__img.grid6
 				img(src="img/port/ScottDawson_thumb.jpg")
-			.grid__img
+			.grid__img.grid7
 				img(src="img/port/Smead_thumb.jpg")
-			.grid__img
+			.grid__img.grid8
 				img(src="img/port/Stebgo_thumb.jpg")
-			.grid__img
+			.grid__img.grid9
 				img(src="img/port/Tennis_thumb.jpg")
+		.overlay.overlay--grid1
+			.overlay__container--grid
+				img(src="../img/port/AllyForce.jpg")
+				.overlay__discription--grid
+					h3 <strong>Client: </strong>Ally Force
+					p Create a promotional brochure to raise awareness of wholly beans brand coffee.
+					ul.overlay__tags
+						li graphic designer
+						li art director
+						li photo retoucher
+						li project manager
+						li illustrator
+						li infographic artist
+						li collaborator
+						li listener
+		.overlay.overlay--grid2
+			.overlay__container--grid
+				img(src="../img/port/Apple-Barn.jpg")
+				.overlay__discription--grid
+					h3 <strong>Client: </strong>Apple Barn
+					p Create a new logo, rebranding, advertising, marketing and promotional materials.
+					ul.overlay__tags
+						li graphic designer
+						li art director
+						li photo retoucher
+						li copywriter
+						li project manager
+						li illustrator
+						li infographic artist
+						li collaborator
+						li listener
+		.overlay.overlay--grid3
+			.overlay__container--grid
+				img(src="../img/port/CFMOTO.jpg")
+				.overlay__discription--grid
+					h3 <strong>Client: </strong>CFMOTO Powersports
+					p Create dealer marketing materials including: sales sheets, pocket brochures, point of sale, posters, hang tags, ceiling danglers, x-frames, walk around videos, website design, dealer and consumer magazine advertising and outdoor.
+					ul.overlay__tags
+						li graphic designer
+						li art director
+						li photo and video director
+						li project manager
+						li location scout
+						li photographer
+						li collaborator
+						li listener
+		.overlay.overlay--grid4
+			.overlay__container--grid
+				img(src="../img/port/Rock_River.jpg")
+				.overlay__discription--grid
+					h3 <strong>Client: </strong>Franklin Graham Society / Rock The River Event
+					p Create a high impact, informational brochure that promoted the musicians and concerts to teens ages 13-17 that churches and organizations could use to promote the Rock the River Event in 4 cities along the Mississippi. A companion piece went along with it that named the musical acts with an infographic map outlining the event area and available parking.
+					ul.overlay__tags
+						li creative director
+						li graphic designer
+						li art director, copywriter
+						li project manage
+						li collaborator
+						li listener
+		.overlay.overlay--grid5
+			.overlay__container--grid
+				img(src="../img/port/Rosemount_Engineering.jpg")
+				.overlay__discription--grid
+					h3 <strong>Client: </strong>Rosemount Engineering
+					p Create a corporate branding look that highlighted Rosemount Engineering’s innovative products and unique position in the marketplace with creative concepts that stood out in the engineering magazines.
+					ul.overlay__tags
+						li graphic designer
+						li art director
+						li photo director
+						li collaborator
+						li listener
+		.overlay.overlay--grid6
+			.overlay__container--grid
+				img(src="../img/port/Scott_Dawson.jpg")
+				.overlay__discription--grid
+					h3 <strong>Client: </strong>Scott Dawson Ministries
+					p Develop a capabilities piece that explained the mission and vision of Scott Dawson Ministries to help recruit prayer partners and financial donors.
+					ul.overlay__tags
+						li creative director
+						li graphic designer
+						li art director
+						li collaborator
+						li listener
+		.overlay.overlay--grid7
+			.overlay__container--grid
+				img(src="../img/port/Smead.jpg")
+				.overlay__discription--grid
+					h3 <strong>Client: </strong>SMEAD
+					p Create branding, advertising and marketing materials for a new marketing initative that would stand out in the office product category.
+					ul.overlay__tags
+						li graphic designer
+						li art director
+						li photo and video director
+						li project manager
+						li collaborator
+						li listener
+		.overlay.overlay--grid8
+			.overlay__container--grid
+				img(src="../img/port/Stebgo.jpg")
+				.overlay__discription--grid
+					h3 <strong>Client: </strong>Stebgo Metals / Bite Campaign
+					p Create a new logo and tag line that communicated the security, integrity and values that Stebgo stands for. A marketing campaign helped communicated those values while identifying the common practice of “skimming” precious metal scrap returns by taking a  nancial percentage off each return.
+					ul.overlay__tags
+						li creative director
+						li graphic designer
+						li art director
+						li copywriter
+						li project manager
+						li account executive
+						li collaborator
+						li listener
+		.overlay.overlay--grid9
+			.overlay__container--grid
+				img(src="../img/port/Tennis.jpg")
+				.overlay__discription--grid
+					h3 <strong>Client: </strong>Children’s Cancer
+					p Create a stunning ad to promote the cancer tournamanet fund raiser.
+					ul.overlay__tags
+						li graphic designer
+						li art director
+						li creative director
+						li photographer
+						li illustrator
+						li copywriter
+						li project manager
+						li collaborator
+						li listener
 		a(name="contact")
 		.contact
 			.fs_blurb

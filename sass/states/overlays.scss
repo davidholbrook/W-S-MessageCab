@@ -22,6 +22,22 @@
   z-index: 9;
   pointer-events: auto;
 }
+.overlay__container--grid{
+	@extend .overlay__container;
+	width: 600px;
+	
+	img{
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+}
+
+.overlay__discription--grid{
+	border-top: 2px solid $accent;
+	margin: 0 -10px;
+	padding: 0 20px;
+}
 .overlay__header{
   background-color: $main;
   border-top-left-radius: 17px;
@@ -181,4 +197,22 @@
   line-height: 2.3rem;
   padding: 0 15px;
   text-align: center;
+}
+
+.overlay__tags{
+	list-style: none;
+	padding: 0;
+	margin-left: -5px;
+	li{
+		float: left;
+		font-family: 'Open Sans', sans-serif;
+		border: 2px solid $accent;
+		color: $accent;
+		padding: 0px 10px;
+		font-size: .6rem;
+		margin: 5px;
+		border-radius: 5px;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
 }
