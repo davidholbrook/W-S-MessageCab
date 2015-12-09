@@ -19,6 +19,9 @@
 	display: flex;
 	overflow: hidden;
 	margin-bottom: 3rem;
+	@media (max-width:800px){
+		flex-wrap: wrap;
+	}
 }
 .half{
 	//@extend %grid;
@@ -29,6 +32,11 @@
 	//@extend %grid;
 	width: 20rem;
 	padding: 0 5px;
+	@media (max-width:800px){
+		width: 15rem;
+		padding: 0;
+
+	}
 }
 .vcentered::before{
 	content:'';

@@ -2,9 +2,13 @@
   @extend %sections;
   background-color: #f2f2f2;
   @include background-image(linear-gradient(top, #f2f2f2, #d6d6d6));
-  
+
   .container{
 	  max-width: 960px;
+  }
+
+  @media (max-width:600px){
+    background: #fff;
   }
 }
 .features__title{
@@ -18,6 +22,9 @@
 }
 
 .features__hovergroup {
+  @media (max-width:600px){
+    display: none;
+  }
 
   h2{
     color: $accent;

@@ -7,4 +7,64 @@
   width: 2300px;
   font-size: 2rem;
   line-height: 2.5rem;
+
+  @media (max-width:600px){
+	  //ugh!
+	  width: 250px !important;
+	  margin: 0px;
+	  text-align: center;
+	  font-size: 1rem;
+	  padding: 5px;
+	  padding: 0 10px;
+	  margin: 0 auto;
+  }
+}
+
+//box-sizing (duh)
+*{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+// VIDEO
+video{
+  width: 100%;
+  background: url('img/message_logo.png') center center no-repeat;
+  background-size: contain;
+}
+
+//buttons
+.cta{
+  display: block;
+  border-radius: 15px;
+  background: none;
+  border: 2px solid $accent;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: .9rem;
+  padding: 5px 15px;
+  display: block;
+  margin: 20px auto;
+  color: $accent;
+  text-decoration: none;
+}
+
+// sections
+%sections{
+  // height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  padding: 50px 0;
+
+  @media (max-width: 600px){
+	  padding: 20px;
+  }
+}
+
+//random
+.clear{
+	clear:both;
 }
