@@ -3,10 +3,14 @@
 	background: url('img/contact.jpg') bottom center;
 	background-size: cover;
 	padding-top: 20px;
-	
+
 	.inner{
 		width: 640px;
 		color: #fff;
+
+		@media(max-width: 600px){
+			width: 100%;
+		}
 	}
 	.fs_blurb{
 		background: none;
@@ -22,4 +26,8 @@
 		color: $main;
 		text-decoration: none;
 	}
+
+		@media(max-width: 600px){
+			font-size: 1.5rem;
+		}
 }

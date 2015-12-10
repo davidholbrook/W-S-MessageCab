@@ -634,6 +634,9 @@ video {
   .contact .inner {
     width: 640px;
     color: #fff; }
+    @media (max-width: 600px) {
+      .contact .inner {
+        width: 100%; } }
   .contact .fs_blurb {
     background: none; }
 
@@ -645,6 +648,9 @@ video {
   .phone a, .email a {
     color: #e8ae4a;
     text-decoration: none; }
+  @media (max-width: 600px) {
+    .phone, .email {
+      font-size: 1.5rem; } }
 
 .overlay {
   position: fixed;
