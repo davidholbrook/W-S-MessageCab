@@ -609,6 +609,9 @@ video {
   flex-flow: row wrap;
   justify-content: left;
   z-index: -2; }
+  @media (max-width: 600px) {
+    .grid {
+      display: none; } }
 
 .grid__img {
   width: 33.33%;
@@ -685,6 +688,9 @@ video {
   .overlay__container--grid img {
     width: 100%;
     margin: 0 auto; }
+  @media (max-width: 600px) {
+    .overlay__container--grid {
+      width: 100%; } }
 
 .overlay__discription--grid {
   border-top: 2px solid #684e21;
@@ -882,5 +888,8 @@ video {
     border-radius: 5px;
     text-transform: uppercase;
     font-weight: bold; }
+  @media (max-width: 600px) {
+    .overlay__tags {
+      display: none; } }
 
 /*# sourceMappingURL=style.css.map */

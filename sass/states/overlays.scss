@@ -46,6 +46,9 @@
 		margin: 0 auto;
 	}
 
+  @media (max-width:600px) {
+    width: 100%;
+  }
 }
 
 .overlay__discription--grid{
@@ -264,4 +267,7 @@
 		text-transform: uppercase;
 		font-weight: bold;
 	}
+  @media (max-width:600px){
+    display: none;
+  }
 }
